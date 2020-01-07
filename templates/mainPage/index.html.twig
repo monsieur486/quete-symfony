@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}mainPage.title{% endtrans %}{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('mainPage') }}
+{% endblock %}
+
+{% block body %}
+    <div>
+        {% include 'nav.html.twig' %}
+        <div class="uk-container uk-container-expand">
+            <h1>{% trans %}mainPage.title{% endtrans %}</h1>
+        </div>
+
+        {% include 'footer.html.twig' %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('mainPage') }}
+{% endblock %}

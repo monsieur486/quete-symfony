@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ZKwK6HR" resname="link02Page.title">
+        <source>link02Page.title</source>
+        <target>Link02</target>
+      </trans-unit>
+      <trans-unit id="kF.4.UZ" resname="modelPage.title">
+        <source>modelPage.title</source>
+        <target>Model</target>
+      </trans-unit>
+      <trans-unit id="vDMIdC_" resname="link01Page.title">
+        <source>link01Page.title</source>
+        <target>Link01</target>
+      </trans-unit>
+      <trans-unit id="Ojt4bc4" resname="footer.languages">
+        <source>footer.languages</source>
+        <target>Langugages</target>
+      </trans-unit>
+      <trans-unit id="gQpPflj" resname="navBar.link01">
+        <source>navBar.link01</source>
+        <target>Link01</target>
+      </trans-unit>
+      <trans-unit id="mYA4xtz" resname="navBar.link02">
+        <source>navBar.link02</source>
+        <target>Link02</target>
+      </trans-unit>
+      <trans-unit id="4WH_23D" resname="mainPage.title">
+        <source>mainPage.title</source>
+        <target>Welcome !</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
